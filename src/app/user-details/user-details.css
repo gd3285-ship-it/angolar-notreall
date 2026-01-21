@@ -1,0 +1,30 @@
+ .user-form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 10px;
+  margin: 20px;
+}
+
+.user-form label {
+  font-weight: bold;
+}
+
+.user-form input {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.user-form button {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.user-form button:hover {
+  background-color: #45a049;
+}

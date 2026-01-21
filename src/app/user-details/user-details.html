@@ -1,0 +1,16 @@
+  <div class="user-form">
+  <label>שם:</label>
+  <input [(ngModel)]="name" type="text" />
+
+  <label>תז:</label>
+  <input [value]="id" type="text" disabled />
+
+  <label>כתובת:</label>
+  <input [(ngModel)]="address" type="text" />
+
+  <label>מייל:</label>
+  <input [(ngModel)]="email" type="email" />
+
+  <button (click)="saveDetails()">שמור</button>
+</div>
+
